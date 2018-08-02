@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Aula 01 - HTML</title>
+  </head>
+  <body>
+
+    <div class="titulos">
+      <h2 class="titulo-principal">Olá mundo</h2>
+      <h6>Menor titulo</h6>
+    </div>
+
+    <div class="paragrafos">
+      <h2>Parágrafos</h2>
+
+      <p>Aqui a gente define um texto qualquer.
+        Em qualquer formatação.</p>
+
+        <pre>
+          Aqui a gente define um texto qualquer.
+          Em qualquer formatação.
+        </pre>
+
+    </div>
+
+    <div class="link">
+      <h2>Links</h2>
+
+      <a href="http://www.uol.com.br">UOL</a>
+      <br>
+      <a href=".teste/aula02.html">Link interno</a>
+    </div>
+
+    <div class="imagens">
+      <h2>Imagens</h2>
+
+      <img src="http://200.17.98.122:8080/certificadosdeclaracoes/resources/img/paranavai-vertical.png" width="400" height="50" alt="">
+    </div>
+
+    <div class="listas">
+      <h2>Listas não ordenadas</h2>
+
+      <ul>
+        <li>
+          <a href="https://www.w3schools.com/html">
+            HTML
+          </a>
+        </li>
+
+        <li>CSS</li>
+
+        <li>JavaScript</li>
+
+        <li>
+          <a href="#" target="_blank">
+            <img src="http://200.17.98.122:8080/certificadosdeclaracoes/resources/img/paranavai-vertical.png" width="400" height="50" alt="">
+          </a>
+        </li>
+
+      </ul>
+
+      <h2>Listas não ordenadas</h2>
+
+      <ol>
+        <li>Cerveja</li>
+        <li>Arros</li>
+        <li>Feijão</li>
+      </ol>
+    </div>
+
+    <div class="tabelas">
+      <h2>Tabelas</h2>
+
+      <table border="1">
+        <thead>
+          <tr>
+            <th>Nome</th>
+            <th>Email</th>
+            <th>Fone</th>
+          </tr>
+          <tbody>
+            <tr>
+              <td>Lucas Gontijo</td>
+              <td>lucasgpso@gmail.com</td>
+              <td>(44) 99999-9999</td>
+            </tr>
+            <tr>
+              <td>Grazy Dias</td>
+              <td colspan="2">gra-od@hotmail.com</td>
+            </tr>
+          </tbody>
+        </thead>
+      </table>
+    </div>
+
+    <div class="iframe">
+      <h2>Iframe</h2>
+
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/a564JxdVvzE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+    </div>
+
+    <div class="formularios">
+      <h2>Formulários</h2>
+
+      <form class="" action="https://www.google.com.br/search" method="get">
+
+        <label for="busca">Buscar por:</label>
+        <input type="text" name="q" value="">
+
+        <input type="submit" value="Procurar" target="_blank">
+
+      </form>
+
+      <hr>
+
+      <h2>Cadastro</h2>
+      <form class="" action="" method="get">
+
+        <label for="nome">Nome</label><br>
+        <input id="nome" type="text" name="nome" value=""><br>
+
+        <label for="email">E-mail</label><br>
+        <input id="email" type="email" name="email" value=""><br>
+
+        <label for="">Sexo</label><br>
+
+        <input id="sexoM" type="radio" name="sexo" value="m">
+        <label for="sexoM">Masculino</label><br>
+
+        <input id="sexoF" type="radio" name="sexo" value="f">
+        <label for="sexoF">Feminino</label><br>
+
+        <label for="">Tecnologias</label><br>
+
+        <input id="tec1" type="checkbox" name="tec[]" value="html">
+        <label for="tec1">HTML</label><br>
+
+        <input id="tec2" type="checkbox" name="tec[]" value="css">
+        <label for="tec2">CSS</label><br>
+
+        <input id="tec3" type="checkbox" name="tec[]" value="js">
+        <label for="tec3">Java Script</label><br>
+
+        <button type="submit">Salvar</button>
+
+      </form>
+
+    </div>
+
+  </body>
+</html>
